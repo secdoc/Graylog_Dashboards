@@ -22,7 +22,7 @@ Screenshot 2:
 ![graylog_dashboard_screenshot_2](https://github.com/secdoc/Graylog_Inputs/assets/55542561/cd6d44a8-eea6-4794-a2c0-285ed1ebec5d)
 
 Screenshot 3:
-![graylog_dashboard_screenshot_3](https://github.com/secdoc/Graylog_Inputs/assets/55542561/bee5b31c-a1b5-482f-aa10-8c705dc5c794)
+![graylog_dashboard_screenshot_3](https://github.com/secdoc/Graylog_Dashboards/assets/55542561/8b4326fc-4d41-4a24-b8fb-f2bd2f68b0ba)
 
 Screenshot 4:
 ![graylog_dashboard_screenshot_4](https://github.com/secdoc/Graylog_Inputs/assets/55542561/901989c2-1827-44b0-bc67-d2b35cbe5fb4)
