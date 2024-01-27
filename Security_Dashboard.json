@@ -3453,7 +3453,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:192.168.*)"
+                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:10.0.*)"
                   },
                   "name": "chart",
                   "timerange": {
@@ -3516,7 +3516,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "action:block AND NOT(dst-ip:192.168.* OR dst-ip:127.0.0.1 OR 99.92.243.109 OR dst-ip:255.255.255.255)"
+                    "query_string": "action:block AND NOT(dst-ip:10.0.* OR dst-ip:127.0.0.1 OR 127.0.0.1 OR dst-ip:255.255.255.255)"
                   },
                   "name": "chart",
                   "timerange": {
@@ -3556,7 +3556,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:192.168.* OR src-ip:99.92.243.109 OR src-ip:127.0.0.1)"
+                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:10.0.* OR src-ip:127.0.0.1 OR src-ip:127.0.0.1)"
                   },
                   "name": "chart",
                   "timerange": {
@@ -3596,7 +3596,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 AND src-ip:0.0.0.0) AND NOT(src-ip:192.168.* OR src-ip:127.0.0.1 OR src-ip:99.92.243.109)"
+                    "query_string": "action:block AND NOT(dst-ip:255.255.255.255 AND src-ip:0.0.0.0) AND NOT(src-ip:10.0.* OR src-ip:127.0.0.1 OR src-ip:127.0.0.1)"
                   },
                   "name": "chart",
                   "timerange": {
@@ -3644,13 +3644,13 @@
               "filters": [],
               "query": {
                 "type": "elasticsearch",
-                "query_string": "source:192.168.2.1"
+                "query_string": "source:10.0.2.1"
               },
               "search_types": [
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "source:192.168.2.1"
+                    "query_string": "source:10.0.2.1"
                   },
                   "name": null,
                   "timerange": {
@@ -3777,7 +3777,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "source:192.168.2.1"
+                    "query_string": "source:10.0.2.1"
                   },
                   "name": "chart",
                   "timerange": {
@@ -7036,7 +7036,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:192.168.* OR src-ip:99.92.243.109 OR src-ip:127.0.0.1)"
+                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:10.0.* OR src-ip:127.0.0.1 OR src-ip:127.0.0.1)"
                 },
                 "streams": [
                   "f369ddf5-d24a-4fd0-a1aa-6658ff067380"
@@ -7086,7 +7086,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "action:block AND NOT(dst-ip:192.168.* OR dst-ip:127.0.0.1 OR 99.92.243.109 OR dst-ip:255.255.255.255)"
+                  "query_string": "action:block AND NOT(dst-ip:10.0.* OR dst-ip:127.0.0.1 OR 127.0.0.1 OR dst-ip:255.255.255.255)"
                 },
                 "streams": [
                   "f369ddf5-d24a-4fd0-a1aa-6658ff067380"
@@ -7166,7 +7166,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:192.168.*)"
+                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 OR src-ip:0.0.0.0 OR src-ip:10.0.*)"
                 },
                 "streams": [
                   "f369ddf5-d24a-4fd0-a1aa-6658ff067380"
@@ -7216,7 +7216,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 AND src-ip:0.0.0.0) AND NOT(src-ip:192.168.* OR src-ip:127.0.0.1 OR src-ip:99.92.243.109)"
+                  "query_string": "action:block AND NOT(dst-ip:255.255.255.255 AND src-ip:0.0.0.0) AND NOT(src-ip:10.0.* OR src-ip:127.0.0.1 OR src-ip:127.0.0.1)"
                 },
                 "streams": [
                   "f369ddf5-d24a-4fd0-a1aa-6658ff067380"
@@ -7468,7 +7468,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "source:192.168.2.1"
+                  "query_string": "source:10.0.2.1"
                 },
                 "streams": [],
                 "config": {
@@ -7500,7 +7500,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "source:192.168.2.1"
+                  "query_string": "source:10.0.2.1"
                 },
                 "streams": [],
                 "config": {
