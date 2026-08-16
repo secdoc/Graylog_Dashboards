@@ -32,3 +32,13 @@ Screenshot 5:
 
 Screenshot 6:
 ![graylog_dashboard_screenshot_6](https://github.com/secdoc/Graylog_Inputs/assets/55542561/57ba784c-271f-41c1-af67-ac2b82c42d74)
+
+
+## License
+
+Dual-licensed, **attribution required** under both:
+
+- **Code & configuration** (scripts, rules, decoders, pipelines, configs): [Apache License 2.0](LICENSE)
+- **Docs, guides & diagrams** (README, docs, diagrams): [CC BY 4.0](LICENSE-docs)
+
+See [`LICENSING.md`](LICENSING.md) and [`NOTICE`](NOTICE). Credit: Lester E. Nichols III, secdoc.tech.
