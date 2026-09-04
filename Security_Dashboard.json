@@ -3644,13 +3644,13 @@
               "filters": [],
               "query": {
                 "type": "elasticsearch",
-                "query_string": "source:10.0.2.1"
+                "query_string": "source:192.0.2.1"
               },
               "search_types": [
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "source:10.0.2.1"
+                    "query_string": "source:192.0.2.1"
                   },
                   "name": null,
                   "timerange": {
@@ -3777,7 +3777,7 @@
                 {
                   "query": {
                     "type": "elasticsearch",
-                    "query_string": "source:10.0.2.1"
+                    "query_string": "source:192.0.2.1"
                   },
                   "name": "chart",
                   "timerange": {
@@ -7468,7 +7468,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "source:10.0.2.1"
+                  "query_string": "source:192.0.2.1"
                 },
                 "streams": [],
                 "config": {
@@ -7500,7 +7500,7 @@
                 },
                 "query": {
                   "type": "elasticsearch",
-                  "query_string": "source:10.0.2.1"
+                  "query_string": "source:192.0.2.1"
                 },
                 "streams": [],
                 "config": {
